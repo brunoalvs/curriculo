@@ -1,0 +1,19 @@
+.languages
+  display: flex
+  flex-wrap: wrap
+
+  > h3
+    width: 100%
+    display: block
+
+  > .idioma
+    flex-basis: 50%
+
+    > .language-name
+      font-weight: bold
+      color: $blue
+
+      &::before
+        content: '\f105'
+        font-family: FontAwesome
+        margin-right: 0.5em

@@ -1,0 +1,33 @@
+// colors
+
+$black: #181716
+$white: #FFFFFF
+$blue: #46a3c2
+$green: #009688
+$red: #ff4b39
+$purple: #a64595
+
+*
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+  font-family: monospace
+
+  > h3
+    color: $red
+    margin-top: 2em
+    margin-bottom: 1em
+
+    &::before
+      content: '['
+    &::after
+      content: ']'
+
+  > a
+    text-decoration: none
+
+.container
+  width: 100%
+  max-width: 1140px
+  margin: 0 auto
+  padding: 1em 0

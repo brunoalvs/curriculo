@@ -1,0 +1,27 @@
+section.xp
+
+  > .job
+    margin: 1em 0 2em
+
+    > .job-header
+
+      .job-role
+        color: $blue
+        font-weight: bold
+
+        &::before
+          content: '\f105'
+          font-family: FontAwesome
+          color: $black
+          font-weight: normal
+          margin-right: 0.5em
+
+    > .content
+      margin: 1em 0.5em
+      color: lighten($black, 40%)
+
+.date-job
+  &::before
+    content: '('
+  &::after
+    content: ')'
