@@ -5,8 +5,8 @@
   font-family: monospace; }
   * > h3 {
     color: #ff4b39;
-    margin-top: 2em;
-    margin-bottom: 1em; }
+    margin-top: 1em;
+    margin-bottom: 0.2em; }
     * > h3::before {
       content: '['; }
     * > h3::after {
@@ -18,14 +18,14 @@
   width: 100%;
   max-width: 1140px;
   margin: 0 auto;
-  padding: 1em 0; }
+  padding: 0.5em; }
 
 .container > header h1 {
-  font-size: 48px;
+  font-size: 38px;
   text-transform: uppercase; }
 
 .container > header h2 {
-  font-size: 25px; }
+  font-size: 20px; }
 
 .container > header > .social-links {
   margin: 1em 0; }
@@ -66,11 +66,19 @@ section.xp > .job {
 .date-job::after {
   content: ')'; }
 
-.courses > .curso {
-  margin: 1em 0; }
-  .courses > .curso .curso-name {
-    color: #46a3c2;
-    font-weight: bold; }
+.courses {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+  .courses > h3 {
+    width: 100%;
+    display: block; }
+  .courses > .curso {
+    margin: 1em 0;
+    flex-basis: 33%; }
+    .courses > .curso .curso-name {
+      color: #46a3c2;
+      font-weight: bold; }
 
 .skills > .skills-list {
   display: flex;
