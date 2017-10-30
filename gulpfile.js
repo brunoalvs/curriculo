@@ -1,16 +1,16 @@
 'use strict'
 
 var gulp = require('gulp'),
-    sass = require('gulp-sass'),
+    stylus = require('gulp-stylus'),
     pug = require('gulp-pug'),
     browserSync = require('browser-sync');
 
-gulp.task('serve', ['pug', 'sass'], function() {
+gulp.task('serve', ['pug', 'stylus'], function() {
   browserSync.init({
     server: './'
   });
 
-  gulp.watch('assets/sass/**/*.sass', ['sass']);
+  gulp.watch('assets/stylus/**/*.styl', ['stylus']);
   gulp.watch('./**/*.pug', ['pug']);
   gulp.watch('./**/*.{html,css}').on('change', browserSync.reload);
 });
@@ -22,9 +22,9 @@ gulp.task('pug', function() {
     .pipe(browserSync.stream());
 })
 
-gulp.task('sass', function() {
-  return gulp.src('assets/sass/**/*.sass')
-    .pipe(sass())
+gulp.task('stylus', function() {
+  return gulp.src('assets/stylus/**/*.styl')
+    .pipe(stylus())
     .on('error', function(err){
             browserSync.notify(err.message, 3000);
             this.emit('end');
@@ -33,4 +33,4 @@ gulp.task('sass', function() {
     .pipe(browserSync.stream());
 })
 
-gulp.task('default', ['pug', 'sass', 'serve']);
+gulp.task('default', ['pug', 'stylus', 'serve']);
