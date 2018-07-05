@@ -1,0 +1,17 @@
+.courses {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.courses > h3 {
+  width: 100%;
+  display: block;
+}
+.courses > .curso {
+  margin: 1em 0;
+  flex-basis: 33%;
+}
+.courses > .curso .curso-name {
+  color: $blue;
+  font-weight: bold;
+}
