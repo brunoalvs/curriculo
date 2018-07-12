@@ -3,26 +3,24 @@
   "version": "1.0.0",
   "description": "",
   "main": "gulpfile.js",
-  "dependencies": {
-    "browser-sync": "^2.24.5",
-    "gulp": "^3.9.1",
-    "gulp-pug": "^3.3.0"
-  },
-  "devDependencies": {
-    "gulp-stylus": "^2.6.0"
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/brunoalv-s/curriculo.git"
+    "url": "git+https://github.com/brunoalvs/curriculo.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/brunoalv-s/curriculo/issues"
+    "url": "https://github.com/brunoalvs/curriculo/issues"
   },
-  "homepage": "https://github.com/brunoalv-s/curriculo#readme"
+  "homepage": "https://github.com/brunoalvs/curriculo#readme",
+  "devDependencies": {
+    "browser-sync": "^2.24.5",
+    "gulp": "^3.9.1",
+    "gulp-pug": "^4.0.1",
+    "gulp-stylus": "^2.7.0"
+  }
 }
