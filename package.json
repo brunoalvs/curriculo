@@ -1,26 +1,20 @@
 {
-  "name": "curriculo",
-  "version": "1.0.0",
-  "description": "",
-  "main": "gulpfile.js",
+  "name": "curriculum",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/brunoalvs/curriculo.git"
+  "dependencies": {
+    "vue": "^3.2.47"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/brunoalvs/curriculo/issues"
-  },
-  "homepage": "https://github.com/brunoalvs/curriculo#readme",
   "devDependencies": {
-    "browser-sync": "^2.29.1",
-    "gulp": "^4.0.2",
-    "gulp-pug": "^5.0.0",
-    "gulp-stylus": "^3.0.0"
+    "@vitejs/plugin-vue": "^4.1.0",
+    "typescript": "^4.9.3",
+    "vite": "^4.2.0",
+    "vue-tsc": "^1.2.0"
   }
 }
