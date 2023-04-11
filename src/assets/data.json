@@ -1,0 +1,130 @@
+{
+    "user": {
+      "name": "Bruno Alves da Silva",
+      "photo": "https://avatars.githubusercontent.com/u/13678214?v=4",
+      "role": "Front End Developer",
+      "location": "Porto - Portugal",
+      "email": "hello@brunoalves.app",
+      "phone": "+351 914299057",
+      "website": "https://brunoalves.app",
+      "github": "https://github.com/brunoalvs",
+      "linkedin": "https://linkedin.com/in/brunoalvs",
+      "summary": "I am brazilian front end developer based in Porto, Portugal, with a passion for creating responsive and user-friendly web applications. My expertise is in React, I'm a fast learner and always striving to stay up-to-date with the latest technologies and industry trends. I'm currently looking for a new opportunity to work with a team of passionate developers and designers."
+    },
+    "experience": [
+      {
+        "title": "Front End Software Engineer",
+        "company": "Tamanna.com",
+        "location": "Porto - Portugal (Remote)",
+        "startDate": "2022-08-01",
+        "endDate": "2023-01-01",
+        "description": "Development and support of Tamanna’s ecommerce. Developed using NextJS, React, TypeScript, and Styled Components. Write unit tests with Jest and React Testing Library and code review of front end staff."
+      },
+      {
+        "title": "Full Stack Developer",
+        "company": "Visie Padrões Web",
+        "location": "São Paulo - Brazil (Remote)",
+        "startDate": "2021-03-01",
+        "endDate": "2022-06-01",
+        "description": "I initially worked in a React Native project, creating the firsts API routes with Express for MVP app and building the front end components of application. As a web developer allocated at Whirlpool Brazil, I built landing and product pages for brands like Consul, Brastemp, and KitchenAid using React, CSS Modules, TypeScript, GraphQL, and VTex IO."
+      },
+      {
+        "title": "Mid Front End Developer",
+        "company": "Infracommerce",
+        "location": "São Paulo - Brazil (Remote)",
+        "startDate": "2020-10-01",
+        "endDate": "2021-03-01",
+        "description": "Support of partner's ecommerce developed with React, Vtex and GraphQL"
+      },
+      {
+        "title": "Mid Front End Developer",
+        "company": "Visie Padrões Web",
+        "location": "São Paulo - Brazil (Hybrid)",
+        "startDate": "2019-11-01",
+        "endDate": "2020-10-01",
+        "description": "Develop a PWA Web App to manage sport teams and rent sport's courts. This app was developed with Vue Stack, Firebase Auth, NodeJS and MongoDB"
+      },
+      {
+        "title": "Junior Front End Developer",
+        "company": "Fullbar Digital",
+        "location": "São Paulo - Brazil",
+        "startDate": "2017-03-01",
+        "endDate": "2017-12-01",
+        "description": "Develop Responsives websites for Advertising campaigns with landing pages, email marketing, and portais, frequently using HTML, SASS, JavaScript, Gulp and thinking of integration with Back End in ASP.NET."
+      }
+    ],
+    "languages": [
+      {
+        "language": "Portuguese",
+        "level": "Native"
+      },
+      {
+        "language": "English",
+        "level": "Intermediate"
+      }
+    ],
+    "skills": [
+      "HTML5, CSS3, JavaScript",
+      "React, Vue",
+      "PWA",
+      "Responsive web design",
+      "CSS preprocessors (SASS, LESS, Stylus)",
+      "NextJS, TypeScript, GraphQL",
+      "Code Review and unit testing skills",
+      "React Native",
+      "UI/UX design principles, wireframing and prototyping tools (Figma, Sketch, Adobe XD)"
+    ],
+    "education": [
+      {
+        "school": "Escola Superior de Media Artes e Design (ESMAD) do P.PORTO",
+        "degree": "Undergraduate",
+        "fieldOfStudy": "Web Information Systems and Technologies",
+        "location": "Porto - Portugal",
+        "startDate": "2021-10-01",
+        "endDate": "2024-06-01",
+        "grade": "This undergraduate program aims to equipe students with practical skills to design and develop products and software for the Web, using emerging technologies and important concepts of interaction design, usability, and user experience. Focused in Web-related areas such as cloud services, mobile computing, e-commerce platforms, and digital business in general."
+      },
+      {
+        "school": "ETEC São Mateus",
+        "degree": "Technical",
+        "fieldOfStudy": "Web Development and systems for the internet",
+        "location": "São Paulo - Brazil",
+        "startDate": "2012-02-01",
+        "endDate": "2013-12-01",
+        "grade": "Operating Systems Management, Programming Logic, Digital Art, Website Development and Design, Database Technologies and Languages, and Web Application Design."
+      }
+    ],
+    "certifications": [
+      {
+        "title": "React JS Formation",
+        "authority": "Alura",
+        "issuedDate": "2021-01-01",
+        "expirationDate": "",
+        "credential": {
+          "id": "40111821-6042-4eb4-a97b-c03cd545637e",
+          "url": "https://cursos.alura.com.br/degree/certificate/40111821-6042-4eb4-a97b-c03cd545637e"
+        }
+      },
+      {
+        "title": "Interfaces and Inheritance in Object Orientation",
+        "authority": "Alura",
+        "issuedDate": "2021-01-01",
+        "expirationDate": "",
+        "credential": {
+          "id": "bf5c9ad7-34bb-4c2d-a80f-d7f5a06c36ce",
+          "url": "https://cursos.alura.com.br/certificate/bf5c9ad7-34bb-4c2d-a80f-d7f5a06c36ce"
+        }
+      },
+      {
+        "title": "JavaScript: Creating a SPA with pure javascript",
+        "authority": "Alura",
+        "issuedDate": "2021-12-01",
+        "expirationDate": "",
+        "credential": {
+          "id": "cf534b94-14ad-4a45-a6fb-b49bca054638",
+          "url": "https://cursos.alura.com.br/certificate/cf534b94-14ad-4a45-a6fb-b49bca054638"
+        }
+      }
+    ]
+  }
+  
